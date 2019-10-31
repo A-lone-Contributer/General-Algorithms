@@ -11,11 +11,9 @@
 
 from math import sqrt
 
-
 def sieve_of_eratosthenes(n):
     
-    # Initialising a list of size n to keep track of marked and
-    # unmarked numbers
+    # Initialising a list of size n with 1 to keep track of prime numbers
     is_prime = [1] * n
 
     # We want to find prime till n but going up to the square root of n would suffice.
@@ -50,4 +48,4 @@ def sieve_of_eratosthenes(n):
 sieve_of_eratosthenes(30)
 
 # Time Complexity : O(n*log(log(n)))
-# Space Complexity : O(1)
+# Space Complexity : O(n)
