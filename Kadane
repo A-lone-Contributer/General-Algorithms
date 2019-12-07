@@ -1,7 +1,6 @@
 # Kadane Algorithm
 
-# This algorithm is used to find the maximum sum contiguous sub-array efficiently.
-# (Uses Dynamic Programming)
+# This algorithm is used to find the maximum sum contiguous sub-array efficiently (Uses Dynamic Programming)
 
 # A maximum sum contiguous sub-array is the one which has the maximum sum among all
 # the sub-arrays and is contiguous.
@@ -15,7 +14,6 @@
 # This works in O(n) time
 
 from sys import maxsize
-
 
 def kadane(arr, n):
 
