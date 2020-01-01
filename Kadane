@@ -11,8 +11,6 @@
 # keep on adding elements of array to max_ending_here and compare with max_so_far
 # and update the value of max_so_far is necessary
 
-# This works in O(n) time
-
 from sys import maxsize
 
 def kadane(arr, n):
